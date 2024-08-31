@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Пошук зображень</title>
+    <script type="module" crossorigin src="/gallery-infinite-scrolling/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/gallery-infinite-scrolling/assets/vendor-zdJlF1dY.js">
+    <link rel="stylesheet" crossorigin href="/gallery-infinite-scrolling/assets/index-BPt2YEZo.css">
+  </head>
+  <body>
+    <section class="gallery-section">
+      <div class="container">
+        <form class="search-form js-search-form">
+          <input
+            class="search-input js-search-input"
+            type="text"
+            name="user_query"
+            placeholder="Search images..."
+            required
+          />
+          <button class="search-btn" type="submit">search</button>
+        </form>
+        <ul class="gallery js-gallery"></ul>
+        <span class="loader is-hidden"></span>
+        <div class="js-observerd-element"></div>
+      </div>
+    </section>
+
+  </body>
+</html>
